@@ -1,8 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  // We initialize the list with some empty state, or mock data if we preferred.
-  // Using an array to structure multiple { id, text, completed } objects.
   items: [],
 };
 
