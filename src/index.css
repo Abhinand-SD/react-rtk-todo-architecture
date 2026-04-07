@@ -1,11 +1,12 @@
 @import "tailwindcss";
 
-@theme {
+:root {
   --color-primary: #3b82f6; 
 }
 
 /* Base custom styles if required for specific pedagogical examples */
 body {
-  @apply bg-gray-50 text-gray-900;
+  background-color: #f9fafb;
+  color: #111827;
   font-family: system-ui, -apple-system, sans-serif;
 }

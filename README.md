@@ -1,16 +1,11 @@
-# React + Vite
+# React + Redux Toolkit: Production-Ready Todo Architecture
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a fully functional, production-grade Todo Application built to demonstrate clean architecture, modular component design, and modern state management using **React 18** and **Redux Toolkit (RTK)**. 
 
-Currently, two official plugins are available:
+Beyond a simple task tracker, this codebase serves as a reference for scalable frontend development, emphasizing separation of concerns and pedagogical clarity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🚀 Key Technical Highlights
+* **State Management:** Utilizes RTK (`configureStore`, `createSlice`) for predictable, immutable state updates via Immer.
+* **Component Architecture:** Strict separation between UI rendering and business logic, ensuring maximum reusability.
+* **Complete CRUD:** Seamless Create, Read, Update (with inline editing), and Delete operations.
+* **UX/UI Best Practices:** Features input validation, state-driven styling (strikethroughs, opacity changes), and responsive design using Tailwind CSS.
